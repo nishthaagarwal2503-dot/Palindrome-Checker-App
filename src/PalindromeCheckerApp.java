@@ -1,4 +1,4 @@
-public class UseCase2PalindromeCheckerApp {
+public class PalindromeCheckerApp {
 
     // Entry point of the application
     public static void main(String[] args) {
