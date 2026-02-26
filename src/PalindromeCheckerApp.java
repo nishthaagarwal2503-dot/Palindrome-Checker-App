@@ -1,22 +1,22 @@
-public class UseCase3PalindromeCheckerApp {
+public class UseCase2PalindromeCheckerApp {
 
     // Entry point of the application
     public static void main(String[] args) {
 
-        // Original string
-        String original = "level";
+        // Hardcoded string
+        String word = "madam";
 
-        // Reverse string using loop
+        // Reverse the stringa
         String reversed = "";
-        for (int i = original.length() - 1; i >= 0; i--) {
-            reversed = reversed + original.charAt(i);
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversed = reversed + word.charAt(i);
         }
 
-        // Compare original and reversed strings
-        if (original.equals(reversed)) {
-            System.out.println(original + " is a Palindrome");
+        // Check palindrome using if-else
+        if (word.equals(reversed)) {
+            System.out.println(word + " is a Palindrome");
         } else {
-            System.out.println(original + " is NOT a Palindrome");
+            System.out.println(word + " is NOT a Palindrome");
         }
     }
 }
